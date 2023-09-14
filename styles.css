@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #11191f;
   }
   
   h1 {
@@ -39,6 +40,13 @@ body {
     margin: 0 auto 3rem;
     width: 20vw;
     height: auto;
+  }
+
+  /* on mobile, the logo should take up 50% of the viewport */
+  @media screen and (max-width: 992px) {
+    .logo {
+      width: 50vw;
+    }
   }
 
   article {
